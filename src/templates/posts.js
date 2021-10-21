@@ -4,7 +4,6 @@ import PostLayout from '../components/layouts/post';
 
 const PostTemplate = (props) => {
   const node = props.data.page.nodes[0];
-  console.log(props)
 	const page = {
     ...node.frontmatter,
     contentHtml: node.html

@@ -7,7 +7,6 @@ import {Loader} from '@googlemaps/js-api-loader';
 
 const ContactPage = (props) => {
 	const page = props.data.page.nodes[0].frontmatter;
-	console.log(page)
 	const googlemap = useRef(null);
 	useEffect(() => {
 		const loader = new Loader({
