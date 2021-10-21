@@ -2,6 +2,9 @@ import * as React from 'react'
 import { graphql } from 'gatsby'
 import PageLayout from '../../components/layouts/page';
 import PostSummary from '../../components/post-summary';
+import { CloudCannonConnect } from '@cloudcannon/react-connector'
+
+const LiveEditingComponent = CloudCannonConnect(PageLayout);
 
 const BlogListPage = (props) => {
 	const page = props.data.page.nodes[0].frontmatter;
@@ -11,7 +14,7 @@ const BlogListPage = (props) => {
 	  }));
 
 	return (
-	<PageLayout page={page}>
+	<LiveEditingComponent page={page}>
 		<section className="diagonal">
 		<div className="text-container">
 			<p className="editor-link"><a href="cloudcannon:collections/content/posts" className="btn"><strong>&#9998;</strong> Add Post</a></p>
@@ -24,7 +27,7 @@ const BlogListPage = (props) => {
 			</ul>
 		</div>
 		</section>
-    </PageLayout>
+    </LiveEditingComponent>
 	)
 }
 

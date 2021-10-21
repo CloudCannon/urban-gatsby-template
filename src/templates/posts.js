@@ -1,6 +1,9 @@
 import * as React from 'react'
 import { graphql } from 'gatsby'
 import PostLayout from '../components/layouts/post';
+import { CloudCannonConnect } from '@cloudcannon/react-connector'
+
+const LiveEditingComponent = CloudCannonConnect(PostLayout);
 
 const PostTemplate = (props) => {
   const node = props.data.page.nodes[0];
@@ -11,7 +14,7 @@ const PostTemplate = (props) => {
   const author = null;
   const nextPost = null;
 	return (
-		<PostLayout page={page} author={author} nextPost={nextPost} />
+		<LiveEditingComponent page={page} author={author} nextPost={nextPost} />
 	)
 }
 

@@ -1,6 +1,9 @@
 import * as React from 'react'
 import { graphql } from 'gatsby'
 import ClientLayout from '../components/layouts/client';
+import { CloudCannonConnect } from '@cloudcannon/react-connector'
+
+const LiveEditingComponent = CloudCannonConnect(ClientLayout);
 
 const ClientTemplate = (props) => {
   const data = props.data;
@@ -8,7 +11,7 @@ const ClientTemplate = (props) => {
   const portfolio = data.portfolio.nodes[0].frontmatter;
 
 	return (
-		<ClientLayout page={page} portfolio={portfolio}/>
+		<LiveEditingComponent page={page} portfolio={portfolio}/>
 	)
 }
 

@@ -10,7 +10,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "@cloudcannon/react-connector": "^1.0.6",
+    "@cloudcannon/react-connector": "^1.0.7",
     "@cloudcannon/reader": "^0.0.5",
     "@googlemaps/js-api-loader": "^1.12.2",
     "anser": "^2.1.0",

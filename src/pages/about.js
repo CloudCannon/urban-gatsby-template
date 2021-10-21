@@ -2,6 +2,9 @@ import * as React from 'react'
 import { graphql } from 'gatsby'
 import PageLayout from '../components/layouts/page';
 import StaffMember from '../components/staff';
+import { CloudCannonConnect } from '@cloudcannon/react-connector'
+
+const LiveEditingComponent = CloudCannonConnect(PageLayout);
 
 const AboutPage = ({ data }) => {
 	const page = data.page.nodes[0].frontmatter;
@@ -11,7 +14,7 @@ const AboutPage = ({ data }) => {
   }));
 
 	return (
-		<PageLayout page={page}>
+		<LiveEditingComponent page={page}>
       <section className="diagonal patterned">
         <div className="container">
             <p className="editor-link" style={{textAlign:'center'}}><a href="cloudcannon:collections/content/staff-members/" className="btn"><strong>&#9998;</strong>Manage Staff members</a></p>
@@ -22,7 +25,7 @@ const AboutPage = ({ data }) => {
           </ul>
         </div>
       </section>
-    </PageLayout>
+    </LiveEditingComponent>
 	)
 }
 
