@@ -1,1 +1,2 @@
-npx gatsby telemetry --disable
+npx gatsby telemetry --disable > /dev/null 2> /dev/null
+echo 'Telemetry collection disabled'
