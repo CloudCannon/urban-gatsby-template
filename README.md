@@ -41,7 +41,7 @@ $ npm run develop
 
 Urban is already optimised for adding, updating and removing pages, staff, posts, company details and footer elements in [CloudCannon](https://app.cloudcannon.com/).
 
-[![Edit on CloudCannon](https://buttons.cloudcannon.com/edit.svg)](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/urban-gatsby-template).
+[![Edit on CloudCannon](https://buttons.cloudcannon.com/edit.svg)](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/urban-gatsby-template)
 
 To build use:
 
