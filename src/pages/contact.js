@@ -97,6 +97,7 @@ export const query = graphql`
       nodes {
         frontmatter {
 			title
+			subtext_html
 			heading
 			subtitle
 			map { 
