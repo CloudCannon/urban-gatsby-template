@@ -1,7 +1,7 @@
 # Urban
 
-Web Agency themed business template for Gatsby.
-Increase the web presence of your agency with this configurable theme.
+Web Agency themed business template for Gatsby. Try out the [live demo](https://truthful-cabbage.cloudvent.net/).
+Increase the web presence of your agency with this configurable theme. 
 
 ![Urban template screenshot](_screenshot.png)
 
@@ -34,7 +34,7 @@ Urban was built with [Gatsby](https://Gatsby.org/) version 11.1.2, but should su
 
 ~~~bash
 $ npm install
-$ npm run dev
+$ npm run develop
 ~~~
 
 ## Editing
