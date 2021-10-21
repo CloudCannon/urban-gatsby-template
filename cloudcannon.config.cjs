@@ -25,7 +25,8 @@ module.exports = {
         "output": true,
         name: 'Pages',
         _icon: 'wysiwyg',
-        _enabled_editors: ['visual','content']
+        _disable_add: true,
+        _enabled_editors: ['visual','data']
       },
       'staff-members': {
         path: 'content/staff-members',

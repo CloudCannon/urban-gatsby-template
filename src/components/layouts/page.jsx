@@ -9,11 +9,14 @@ export default function PageLayout({ children, page }) {
 		<DefaultLayout page={page}>
             <section className="hero diagonal">
                 <div className="container">
-                { (page.heading || page.title) &&
+                { title &&
                     <h2>{ title }</h2>
                 }
                 { page.subtitle &&
                     <p className="subtext">{ page.subtitle }</p>
+                }
+                { page.subtext_html &&
+			        <div className="subtext" dangerouslySetInnerHTML={{ __html: page.subtext_html }} />
                 }
                 </div>
             </section>

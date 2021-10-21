@@ -8,13 +8,13 @@ const HomePage = (props) => {
 	const clients = props.data.clients.nodes.map((client) => ({
 		...client.frontmatter,
 		slug: client.parent.name
-	  }));
+	}));
 
 	const LiveEditingComponent = CloudCannonConnect(HomePageComponents);
-	return <LiveEditingComponent page={page} clients={clients}/>
+	return <LiveEditingComponent page={ page } clients={ clients } />
 }
 
-export const query = graphql`
+export const query = graphql `
   query {
     clients: allMarkdownRemark(filter: {fields: {sourceName: {eq: "clients"}}}) {
       nodes {
@@ -34,13 +34,13 @@ export const query = graphql`
     page: allMarkdownRemark(filter: {fields: {sourceName: {eq: "pages"}}, fileAbsolutePath: {regex: "/.*content\\/pages\\/index/"}}) {
       nodes {
         frontmatter {
-			title
-			subtext_html
-			heading
-			subtitle
-			portfolio_heading
-			portfolio_description_html
-			portfolio_call_to_action
+          title
+          subtext_html
+          heading
+          subtitle
+          portfolio_heading
+          portfolio_description_html
+          portfolio_call_to_action
         }
       }
     }

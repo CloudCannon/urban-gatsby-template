@@ -47,7 +47,7 @@ export const query = graphql`
         excerpt
       }
     }
-    page: allMarkdownRemark(filter: {fields: {sourceName: {eq: "pages"}}, fileAbsolutePath: {regex: "/.*content\\/pages\\/index/"}}) {
+    page: allMarkdownRemark(filter: {fields: {sourceName: {eq: "pages"}}, fileAbsolutePath: {regex: "/.*content\\/pages\\/blog/"}}) {
       nodes {
         frontmatter {
 			title
