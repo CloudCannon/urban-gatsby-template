@@ -3,7 +3,7 @@
 Web Agency themed business template for Gatsby.
 Increase the web presence of your agency with this configurable theme.
 
-![Urban template screenshot](images/_screenshot.png)
+![Urban template screenshot](_screenshot.png)
 
 Urban was made by [CloudCannon](https://cloudcannon.com/), a Jamstack platform for the whole team.
 
@@ -16,10 +16,9 @@ Find more templates, themes and tutorials at [CloudCannon Academy](https://learn
 * Pre-built pages
 * Pre-styled components
 * Disqus comments for posts
-* Staff and author system
+* Staff system
 * Configurable footer
 * Optimised for editing in [CloudCannon](https://cloudcannon.com/)
-* RSS/Atom feed
 * SEO tags
 * Google Analytics
 
