@@ -9,6 +9,8 @@ Urban was made by [CloudCannon](https://cloudcannon.com/), a Jamstack platform f
 
 Find more templates, themes and tutorials at [CloudCannon Academy](https://learn.cloudcannon.com/).
 
+[![Deploy to CloudCannon](https://buttons.cloudcannon.com/deploy.svg)](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/urban-gatsby-template)
+
 ## Features
 
 * FrontMatter live editing
@@ -40,8 +42,6 @@ $ npm run develop
 ## Editing
 
 Urban is already optimised for adding, updating and removing pages, staff, posts, company details and footer elements in [CloudCannon](https://app.cloudcannon.com/).
-
-[![Edit on CloudCannon](https://buttons.cloudcannon.com/edit.svg)](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/urban-gatsby-template)
 
 To build use:
 
