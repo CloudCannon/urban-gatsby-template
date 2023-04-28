@@ -32,13 +32,13 @@ const HomePageComponents = ({ page, clients }) => {
 				<div className="container halves">
 				<div>
 					<ul className="image-list">
-						<li><img src={`${data.site.baseurl}/images/cloudcannon-logo-blue.svg`} width="250" style={{marginBottom: 40 + 'px'}} alt="CloudCannon Logo"/></li>
+						<li><img src={`${data.site.baseurl}/images/cloudcannon-logo.png`} width="250" style={{marginBottom: 40 + 'px'}} alt="CloudCannon Logo"/></li>
 						<li><img src={`${data.site.baseurl}/images/jekyll-logo-black-red-transparent.png`} width="300" alt="Jekyll Logo"/></li>
 					</ul>
 				</div>
 				<div>
 					<h3>Latest software, greatest perfomance</h3>
-					<p>As a new agency we get reap the benefits of the latest and greatest. We build our websites with the most up to date technology. This ensures your website is fast, efficient and reliable for many years.</p>
+					<p>We build our websites with the most up to date technology. This ensures your website is fast, efficient and reliable for many years.</p>
 				</div>
 				</div>
 			</section>
