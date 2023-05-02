@@ -1,2 +1,4 @@
 npx gatsby telemetry --disable > /dev/null 2> /dev/null
 echo 'Telemetry collection disabled'
+
+export NODE_OPTIONS=--openssl-legacy-provider
