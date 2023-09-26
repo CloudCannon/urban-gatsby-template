@@ -1,4 +1,4 @@
-# Urban
+# Urban [ LEGACY TEMPLATE NO LONGER MAINTAINED ]
 
 Web Agency themed business template for Gatsby. Try out the [live demo](https://truthful-cabbage.cloudvent.net/).
 Increase the web presence of your agency with this configurable theme. 
